@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+:root {
+  --primary-color: #27005d;
+  --secondary-color: #9400ff;
+  --tertiary-color: #aed2ff;
+  --quaternary-color: #e4f1ff;
+}

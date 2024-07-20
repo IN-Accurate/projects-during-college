@@ -1,0 +1,109 @@
+.divcard {
+  transition: all 0.3s ease-out;
+}
+
+.divcard:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(15, 0, 114);
+  transform: scale(0.9);
+}
+
+.search-focus {
+  height: 10vh;
+  width: fit-content;
+  color: white;
+}
+
+.search-suggestions {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 3px solid black;
+  text-align: left;
+  margin-top: 1vh;
+  margin-left: 0.7vw;
+  width: 36vw;
+  color: black;
+}
+.search-focus {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: fit-content;
+  z-index: 999;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.searchlist {
+  /* border-radius: 10px; */
+  padding-left: 10px;
+  transition: all 350ms ease-in-out;
+  /*
+  -webkit-transition: all 350ms ease-in-out;
+  -moz-transition: all 350ms ease-in-out;
+  -ms-transition: all 350ms ease-in-out;
+  -o-transition: all 350ms ease-in-out; */
+}
+
+.searchlist:hover {
+  transform: scale(1.2);
+  background-color: black;
+  color: white;
+  /* -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2); */
+}
+
+.pdfs-container {
+  width: 90vw;
+  height: 80vh;
+  margin-top: 5vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 1%;
+  gap: 1vw;
+}
+
+.searchlist-names {
+  width: 20%;
+  height: 30%;
+  background-color: #ffffcc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.open-pdf-btn {
+  cursor: pointer;
+  border-radius: 1rem;
+  font-size: 1rem;
+  width: 12vw;
+  padding: 5%;
+  height: fit-content;
+  text-align: center;
+  line-height: 1em;
+  background-color: #1d0c38;
+  border: 1px solid #1d0c38;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+
+.open-pdf-btn:hover {
+  border-radius: 50px;
+  background-color: white;
+  color: rgb(15, 0, 114);
+  transform: scale(0.9);
+  border: none;
+  animation: step-end;
+}

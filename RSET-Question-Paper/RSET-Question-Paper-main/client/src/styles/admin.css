@@ -1,0 +1,22 @@
+.admin-btn {
+  cursor: pointer;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  width: 20rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  background-color: #1d0c38;
+  border: 1px solid #1d0c38;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+
+.admin-btn:hover {
+  border-radius: 50px;
+  background-color: white;
+  color: rgb(15, 0, 114);
+  transform: scale(0.9);
+  border: none;
+  animation: step-end;
+}
